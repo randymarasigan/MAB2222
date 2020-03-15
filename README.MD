@@ -9,9 +9,10 @@ This site contains resources for the MABA 2222 SY 2020 Hackathon Challenge.
 
 The World Health Organization and the Government of affected countries need close monitoring of virus cases per country to implement countermeasures to combat the increase of coronavirus infection.
 
-We are creating an operations dashboard using various datasets worldwide with the help of the ArcGIS online tool to visualize and create an interactive live map that can be viewed and drilled down by users globally. A dashboard that can provide near real-time visibility of the rate of increase or decrease of infections per country will enable authorities a proactive effort to control the spread. 
+We are creating a portal that links to dashboards and web maps. These resources are powered with various datasets worldwide, With the help of the ArcGIS online tool to visualize and create an interactive live map, maps and dashboards can be viewed and drilled down by users globally. A dashboard that can provide near real-time visibility of the rate of increase or decrease of infections per country will enable authorities a proactive effort to control the spread. 
 
-The system should alert power-users for new cases in the country, increasing cases, and even declining cases of infection to measure the effectiveness of control.
+The system should alert the public users for new cases in the country, increasing cases, and even declining cases of infection.
+
 
 ## Objective
 
@@ -31,17 +32,7 @@ What is the current rate of infections in a specific location of interest?
 What is the COVID-19 death rate in the country?
 How effective are the government mitigation efforts to stop the infections and deaths? 
 
-
 ## Datasets and Resources
-
-Please consider the following datasets and resources for reference and inspiration: 
-
-### Datasets
-
-* John Hopkins University (JHU) Global [dashboard](https://gisanddata.maps.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6) on Coronavirus outbreak
-* [News and Social Media Extracts](https://github.com/docligot/coronavirus-mab2222-hackathon/tree/master/social_listening
-) on Coronavirus
-* [Airport and Flight Data](https://github.com/docligot/coronavirus-mab2222-hackathon/tree/master/flight_data) (from Open Flights dot Org)
 
 ### Data and Analysis
 
@@ -59,41 +50,66 @@ Data sources:
 9. Philippine data on COVID-19
 Reference: https://docs.google.com/spreadsheets/u/1/d/1wdxIwD0b58znX4UrH6JJh_0IhnZP0YWn23Uqs7lHB6Q/edit#gid=0
 
+Data Processing Tools:
+1. ArcGIS Pro Desktop - Used ArcGIS Pro Desktop for data processing and GIS Mapping
+2. ArcGIS Online - Used ArcGIS Online for the Dashboard.
+3. MS Excel / Google Sheets
 
-*Note: Teams are free to explore and add other datasets to complement this.*
+Visualization/Portal tools:
+1. ArcGIS Online - Used for the main portal (COVID-19 Cases Portal) - https://gisdatascience.maps.arcgis.com/home/index.html 
+2. ArcGIS Online (Operations Dashboard) - Our Dashboard is built using the ArcGIS Online Dashboard -  https://arcg.is/0jvCW8
+3. Google Data Studio for the Descriptive Analytics Dashboard - https://datastudio.google.com/u/0/reporting/1sfMyDu0OSGRbZUmEMbSpJg8KIz8bH6U6/page/EtLIB
 
-### Other Related Projects and Hacks
+Mapping visualization: All web maps, app, and dashboard can be accessed through the portal -https://gisdatascience.maps.arcgis.com/home/index.html
+1. Online mapping with various themes (thematic layers)
+- Confirmed cases - Shows the Confirmed cases
+- Deaths - Shows the no. of deaths
+- Recovered - Shows the no. of recovered patients
+- Countries affected - Countries affected with counts (Confirmed, Deaths, Recovered)
+- Location map - Indicated the center point of cases in a county - Web Application was build for this - https://gisdatascience.maps.arcgis.com/apps/webappviewer/index.html?id=fe84cc1694aa4bea88de0cf57cd24fbb
 
-* [Coronatracker](https://github.com/theleadio/coronatracker) - a global volunteer initiative to analyze the coronavirus
-* [Coronatracker Analytics](https://github.com/docligot/coronatracker-analytics) - work-in-progress analytical initiatives on the coronavirus
-* 3D Coronavirus Outbreak [Visualization](https://icao.maps.arcgis.com/home/webscene/viewer.html?webscene=bf1ef9f8d9a748e0ab77c5591b24102e)
+Charts: All charts can be viewed in the Operations Dashboard and Google Data Studio Dashboard (https://arcg.is/0jvCW8, https://datastudio.google.com/u/0/reporting/1sfMyDu0OSGRbZUmEMbSpJg8KIz8bH6U6/page/EtLIB)
+1. Cumulative cases per country
+2. Scorecards/summary (confirmed cases, death, recovered)
+3. For local cases, a separate dashboard is created
+4. Gender
+5. Nationality
+6. Age
 
-### Updated Link Resources
+Problems to be solved through algorithms:
+Rate of increase of the virus spread (Global/Country level) - This will be future work as data becomes more readily available.
 
-* [Reddit Thread on WHO visit to Wuhan](https://www.reddit.com/r/China_Flu/comments/fbt49e/the_who_sent_25_international_experts_to_china/). Contains some useful notes about the mortality and conditions on the ground. 
-* MIT Review: [Best and Worst Coronavirus Dashboards](https://www.technologyreview.com/s/615330/best-worst-coronavirus-dashboards/). Some useful feedback on each that you can apply to your projects. 
-* References on fake news on Coronavirus:
-	* [The Thaiger](https://thethaiger.com/hot-news/coronavirus/top-6-fake-coronavirus-news-stories) Top 6 Fake Coronavirus Fake Stories
-	* [Top 10 Fake News Myths on 2019 Novel Coronavirus]( https://www.devdiscourse.com/article/health/875867-top-10-fake-news-myths-and-realities-on-2019-novel-coronavirus-covid-19)
-	* [BuzzFeed News](https://www.buzzfeednews.com/article/janelytvynenko/coronavirus-disinformation-spread) Coronavirus Disinformation
+### Actions
 
-Other hackathon results for inspiration: 
+Through the real-time visibility of infection cases around the world, authorities will be alerted and able to implement proactive and effective measures to prevent the virus from further spreading.
 
-* [Bangsamoro Data Challenge](https://github.com/ethicsph/bangsamoro-data-challenge) - abstracts and submissions using Open Bangsamoro datasets
-* [Project AEDES](https://github.com/docligot/aedesproject) - advanced dengue prediction service using google searches, weather data, and satellite data
-* [Troglodyte](https://github.com/docligot/conspiracy-detection-r) - conspiracy detection on fake news sites
+The dashboard will also aid the government to apply certain actions and necessary interventions when it comes to travel advisory or travel bans.
 
-## Sample Challenge Concepts
+Our local communities will also be aware of the current situation in the country by providing them summarized information through dashboards.
 
-Some ideas to explore, and you can combine ideas for your project: 
-* Data Visualization / Dashboard for Coronavirus - create a tool to help decision-makers manage information
-* Predictive Modeling / Forecasting of Coronavirus Epidemic - use various models and algorithms to predict the future spread of the disease (ideas: SEIR, time-series, regression models, VAR, etc.)
-* Language Processing / Topic Modeling of News (e.g. detect fake news, understand sentiment, what topics resonate with the coronavirus)
-* Flight path / Network modeling of Epidemic - correlate spread of the disease with flight patterns
+### Results
 
-## Contact Us
+Effectiveness of the COVID-19 Community Portal will be measured by:
 
-For any questions or inquiries regarding this repository or the challenge please contact [Dominic Ligot](https://www.linkedin.com/in/docligot/).
+1. The decline in the cases of infections around the world which can be seen in the dashboards.
+2. Increase in the number of recoveries of those infected.
+3. The decline in the number of new cases in the Philippines as confirmed by the data processed and visualized in the dashboard.
+4.Able to help the health authorities with the demographic information of infected patients that can assist in the clinical correlations.
+5. COVID-19 Cases in the Philippines (Age, Nationality, Case Trend or rate of increase, Patient Status).
+
+### Important Links for the Project:
+GitHub Link for this project: Repository: https://github.com/randymarasigan/MAB2222
+
+COVID-19 Cases Portal: https://gisdatascience.maps.arcgis.com/home/index.html
+
+Worldwide COVID-19 Cases Dashboard: https://gisdatascience.maps.arcgis.com/apps/opsdashboard/index.html#/ad9abb1c78ab4736ae55a8f83754f170
+
+Worldwide COVID-19 Cases Web Application: https://gisdatascience.maps.arcgis.com/apps/webappviewer/index.html?id=fe84cc1694aa4bea88de0cf57cd24fbb
+
+Philippines COVID-19 Cases Dashboard: https://datastudio.google.com/u/0/reporting/1sfMyDu0OSGRbZUmEMbSpJg8KIz8bH6U6/page/HAYIB
+
+Web Scene (3D Visualization): https://gisdatascience.maps.arcgis.com/home/webscene/viewer.html?webscene=dcb7173c87044339b031fd6c3f3cff7b
+
 
 ## License
 
