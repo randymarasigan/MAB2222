@@ -94,7 +94,7 @@ Effectiveness of the COVID-19 Community Portal will be measured by:
 1. The decline in the cases of infections around the world which can be seen in the dashboards.
 2. Increase in the number of recoveries of those infected.
 3. The decline in the number of new cases in the Philippines as confirmed by the data processed and visualized in the dashboard.
-4.Able to help the health authorities with the demographic information of infected patients that can assist in the clinical correlations.
+4. Able to help the health authorities with the demographic information of infected patients that can assist in the clinical correlations.
 5. COVID-19 Cases in the Philippines (Age, Nationality, Case Trend or rate of increase, Patient Status).
 
 ### Important Links for the Project:
