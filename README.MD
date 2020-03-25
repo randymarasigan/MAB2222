@@ -7,11 +7,22 @@ This site contains resources for the MABA 2222 SY 2020 Hackathon Challenge.
  
 ## Abstract
 
-The World Health Organization and the Government of affected countries need close monitoring of virus cases per country to implement countermeasures to combat the increase of coronavirus infection.
+We need close monitoring of virus cases to implement countermeasures to combat the increase of coronavirus infection worldwide.
 
-We are creating a portal that links to dashboards and web maps. These resources are powered with various datasets worldwide, With the help of the ArcGIS online tool to visualize and create an interactive live map, maps and dashboards can be viewed and drilled down by users globally. A dashboard that can provide near real-time visibility of the rate of increase or decrease of infections per country will enable authorities a proactive effort to control the spread. 
+We are creating a community portal that links to dashboards and web maps. These resources are powered with various datasets worldwide. With the help of the ArcGIS online tool, we can show interactive visualizations through interactive live maps and dashboards. These can be accessed and drilled down by users globally. 
+
+A dashboard that can provide near real-time visibility of the rate of increase or decrease of infections per country will enable authorities a proactive effort to control the spread.
 
 The system should alert the public users for new cases in the country, increasing cases, and even declining cases of infection.
+
+## Understanding the Problem
+
+Unawareness of the exponential spread of the disease can pose a significant problem to the public and authorities. Lack of readily available information on the location and the numbers of infections affect not only the health of the people but also the broader implications on the economy, business, and employment.
+
+Raising awareness on the location and extent of the spread of the disease through a technology platform encourages vulnerable people to take preventative and mitigating actions where possible infections occur.
+
+We have to ensure that the knowledge from prediction and early warning systems can be accessed, understood, and acted upon by local communities.
+
 
 
 ## Objective
@@ -98,6 +109,9 @@ Effectiveness of the COVID-19 Community Portal will be measured by:
 5. COVID-19 Cases in the Philippines (Age, Nationality, Case Trend or rate of increase, Patient Status).
 
 ### Important Links for the Project:
+
+Presentation Video: https://www.youtube.com/watch?v=pvE-a2MvRiM
+
 GitHub Link for this project: Repository: https://github.com/randymarasigan/MAB2222
 
 COVID-19 Cases Portal: https://gisdatascience.maps.arcgis.com/home/index.html
